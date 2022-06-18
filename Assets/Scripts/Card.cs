@@ -5,14 +5,15 @@ using UnityEngine;
 [System.Serializable]
 public class Card
 {
-    public string cardName;
+    public string name;
     [TextArea(1,3)]
-    public string cardDescription;
+    public string description;
 
-    public Sprite cardSprite;
-    public Sprite cardBgSprite;
+    public Sprite sprite;
+    public Sprite bgSprite;
 
-    public int cardMana;
-    public int cardStamina;
-    public int cardCooldown;
+    public int manaCost;
+    public int staminaCost;
+    public int playedCooldown;
+    public int waitCooldown;
 }
