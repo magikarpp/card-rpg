@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7624419456336630913}
   - component: {fileID: 7624419456336630912}
   m_Layer: 5
-  m_Name: Text
+  m_Name: StaminaCost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,7 +887,7 @@ GameObject:
   - component: {fileID: 7624419458275016082}
   - component: {fileID: 7624419458275016081}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ManaCost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

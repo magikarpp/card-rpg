@@ -384,6 +384,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2097181450}
     m_Modifications:
+    - target: {fileID: 7624419456336630913, guid: bd33054d193f07b47a84d55bdf5a7a13, type: 3}
+      propertyPath: m_Text
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7624419458300624452, guid: bd33054d193f07b47a84d55bdf5a7a13, type: 3}
       propertyPath: m_Name
       value: CardBody
