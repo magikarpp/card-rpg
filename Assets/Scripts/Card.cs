@@ -14,6 +14,5 @@ public class Card
 
     public int manaCost;
     public int staminaCost;
-    public int playedCooldown;
-    public int waitCooldown;
+    public int cooldown;
 }
