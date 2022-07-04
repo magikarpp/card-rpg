@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Card
+[CreateAssetMenu(menuName = "Card", fileName = "New Card")]
+public class Card : Item
 {
-    public string name;
-    [TextArea(1,3)]
-    public string description;
-
-    public Sprite sprite;
-    public Sprite bgSprite;
-
     public int manaCost;
+
     public int staminaCost;
+
     public int cooldown;
+
+    public override void Use()
+    {
+    }
 }

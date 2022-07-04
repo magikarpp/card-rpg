@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe495a213c0f214f9ad8eb26d01c724, type: 3}
+  m_Name: Card_0_Toby
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 7cad2c92f196e82438b5b3569d86f27a, type: 3}
+  itemImage: {fileID: 21300000, guid: e5092958db19b9f4ea3242bd2a151cdf, type: 3}
+  itemBackgroundImage: {fileID: 21300000, guid: 82d2f46b789090d4f91dc5ee6f0cd5dd, type: 3}
+  itemType: 0
+  itemName: Toby
+  description: Toby is a scaredy cat. But he has lots of live to give!
+  value: 10
+  isSellable: 0
+  weight: 8
+  manaCost: 3
+  staminaCost: 3
+  cooldown: 1
